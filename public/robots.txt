@@ -1,0 +1,28 @@
+User-agent: *
+Disallow: /admin/
+Disallow: /tmp/
+Disallow: /private/
+Disallow: /*?sort=
+Disallow: /*filter=
+Disallow: /*sessionid=
+Disallow: /ajax/
+Disallow: /api/
+Allow: /*.css
+Allow: /*.js
+Allow: /*.png
+Allow: /*.jpg
+
+User-agent: Googlebot-Image
+Disallow: /draft-portfolio/
+Allow: /portfolio/
+
+User-agent: AdsBot-Google
+Disallow: /ad-campaigns/
+
+User-agent: GPTBot
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
+
+Sitemap: https://your-domain.com/sitemap.xml
