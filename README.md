@@ -52,8 +52,8 @@ cp .env.example .env
 Edit `.env` and set:
 
 ```bash
-VITE_SUPABASE_URL=your_supabase_url
-VITE_SUPABASE_ANON_KEY=your_supabase_anon_key
+VITE_SUPABASE_URL=your-supabase-url
+VITE_SUPABASE_PUBLISHABLE_DEFAULT_KEY=your-supabase-publishable-key
 ```
 
 You can find these in your [Supabase project settings](https://supabase.com).
