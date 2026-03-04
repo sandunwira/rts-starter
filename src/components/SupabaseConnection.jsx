@@ -22,7 +22,7 @@ function SupabaseConnection() {
 	}, []);
 
 	return (
-		<div className="flex flex-col lg:flex-row items-center justify-center gap-5 select-none">
+		<div className="flex flex-col lg:flex-row items-center justify-center lg:items-start gap-5 select-none">
 			<div className="flex flex-col items-center justify-center gap-2">
 				<div className="flex flex-row items-center justify-center gap-2 text-xs text-zinc-700 border border-zinc-700 bg-zinc-200 rounded-full px-3 py-1.5">
 					<div className={`h-1.5 w-1.5 ${hasUrl ? `bg-green-500` : `bg-red-500`} rounded-full`}></div>
